@@ -1,12 +1,9 @@
-runtime: java
+runtime: java17
 env : flex
 inbound_services: 
 - warmup
 derived_file_type:
 - java_precompiled
-
-runtime_config: 
-  jdk: openjdk11
 
 handlers:
 - url: /.*
